@@ -2,4 +2,12 @@
     padding-inline: 1.125rem;
     margin-inline: auto;
     max-width: 75rem;
+
+    &--medium {
+        max-width: 61rem;
+    }
+
+    .wrapper {
+        padding-inline: 0;
+    }
 }
