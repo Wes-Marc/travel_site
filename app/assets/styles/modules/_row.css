@@ -7,7 +7,7 @@
     }
 
     &--gutters {
-        gap: 0;
+        gap: 1rem;
 
         @mixin atMedium {
             gap: 4.0625rem;
