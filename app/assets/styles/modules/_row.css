@@ -16,9 +16,21 @@
 
     &__4 {
         flex: 0 1 calc((100% / 12) * 4);
+
+        @mixin atMedium {
+            &--larger {
+                flex: 0 1 calc((100% / 12) * 4.5);
+            }
+        }
     }
 
     &__8 {
         flex: 0 1 calc((100% / 12) * 8);
+
+        @mixin atMedium {
+            &--larger {
+                flex: 0 1 calc((100% / 12) * 7.5);
+            }
+        }
     }
 }

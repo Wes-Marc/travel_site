@@ -1,7 +1,7 @@
 .wrapper {
     padding-inline: 1.125rem;
     margin-inline: auto;
-    max-width: 75rem;
+    max-width: 77.25rem;
 
     &--medium {
         max-width: 61rem;
@@ -9,5 +9,13 @@
 
     .wrapper {
         padding-inline: 0;
+    }
+
+    &--b-margin {
+        margin-block-end: 1rem;
+
+        @mixin atSmall {
+            margin-block-end: 3.875rem;
+        }
     }
 }
