@@ -14,6 +14,14 @@
         }
     }
 
+    &--gutters-large {
+        gap: 1rem;
+
+        @mixin atMedium {
+            gap: 6.25rem;
+        }
+    }
+
     &__4 {
         flex: 0 1 calc((100% / 12) * 4);
 
@@ -22,6 +30,10 @@
                 flex: 0 1 calc((100% / 12) * 4.5);
             }
         }
+    }
+
+    &__6 {
+        flex: 0 1 calc((100% / 12) * 6);
     }
 
     &__8 {
