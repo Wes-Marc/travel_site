@@ -1,0 +1,33 @@
+.feature-item {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-block-end: 2.5rem;
+
+    @mixin atMedium {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    &__icon {
+        align-self: center;
+
+        @mixin atMedium {
+            align-self: flex-start;
+            justify-self: left;
+        }
+    }
+
+    &__title {
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-block: 0 0.8rem;
+        text-align: center;
+
+        @mixin atSmall {
+            font-size: 1.875rem;
+            text-align: left;
+        }
+    }
+}
