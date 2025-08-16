@@ -2,8 +2,12 @@
     display: flex;
     flex-direction: column;
 
-    @mixin atMedium {
+    @mixin atLarge {
         flex-direction: row;
+    }
+
+    &--t-padding {
+        padding-block-start: 80px;
     }
 
     &--gutters {
@@ -11,6 +15,14 @@
 
         @mixin atMedium {
             gap: 4.0625rem;
+        }
+    }
+
+    &--gutters-small {
+        gap: 1rem;
+
+        @mixin atMedium {
+            gap: 2.8125rem;
         }
     }
 
