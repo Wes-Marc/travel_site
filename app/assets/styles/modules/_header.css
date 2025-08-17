@@ -1,0 +1,21 @@
+.header {
+    background-color: rgba($mainBlue, 0.3);
+    padding-block: 0.625rem;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+
+    &__content {
+        align-items: center;
+        display: flex;
+        float: right;
+        gap: 1.25rem;
+    }
+
+    &__logo {
+        background-color: $mainBlue;
+        padding: 1.5625rem 2.25rem;
+        position: absolute;
+        top: 0;
+    }
+}
