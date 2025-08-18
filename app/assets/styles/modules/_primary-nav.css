@@ -1,7 +1,9 @@
 .primary-nav {
     ul {
         display: flex;
+        flex-wrap: wrap;
         gap: 1.25rem;
+        justify-content: center;
         margin: 0;
         padding: 0;
     }
@@ -11,9 +13,17 @@
     }
 
     a {
+        background-color: rgba($mainBlue, 0.7);
         color: #fff;
+        font-size: 0.8rem;
         font-weight: 300;
-        padding-block: 0.75rem;
+        padding: 0.3125rem 0.5rem;
         text-decoration: none;
+
+        @mixin atMedium {
+            background-color: transparent;
+            font-size: 1rem;
+            padding: 0.75rem 0;
+        }
     }
 }
