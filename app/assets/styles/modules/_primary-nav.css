@@ -24,6 +24,10 @@
             background-color: transparent;
             font-size: 1rem;
             padding: 0.75rem 0;
+
+            &.is-current-link {
+                color: #fabb69;
+            }
         }
     }
 }
