@@ -7,6 +7,10 @@
         max-width: 61rem;
     }
 
+    &--narrow {
+        max-width: 29.375rem;
+    }
+
     &--no-padding-until-medium {
         padding-inline: 0;
 
